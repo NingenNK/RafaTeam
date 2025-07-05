@@ -1,0 +1,70 @@
+html, body{
+
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+    background-image: url(FOTOS/Fondo\ Login.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.login-container{
+
+    display: grid;
+    place-items: center;
+    height: 100vh;   
+}
+.login{
+
+    background-image: linear-gradient(to right, #330000, #600000);
+    width: 400px;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(95, 29, 29);       
+
+}
+.login h1{
+
+    font-family: Poppins, sans-serif;
+    color: rgb(224, 197, 197);
+    display:flex;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.Usuario input{
+
+border-radius: 5px;
+background-color: rgb(226, 224, 224);
+color:#330000;
+
+}
+.Usuario{
+
+    display:flex;
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 16px;
+
+}
+button{
+
+    color:#330000;
+    font-weight:bold;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;   
+    border-radius: 22px;
+    background-color: rgb(226, 224, 224);
+    box-shadow: 0 0 20px rgb(226, 224, 224);;   
+
+}
